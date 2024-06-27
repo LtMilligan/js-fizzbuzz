@@ -9,5 +9,8 @@ for (i = 1; i <= 100; i++) {
     else if (i % 5 == 0) {
         i = 'Buzz'
     }
-    
+    // Creo un IF per andare a cercare i numeri divisibili sia per 3 che per 5 per andare a sostituire il numero con "FizzBuzz"
+    else if (i % 3 == 0 && i % 5 == 0) {
+        i = 'FizzBuzz'
+    }
 }
